@@ -16,7 +16,7 @@ public class CountingWhile
 				int n = 0;
 				while ( n < entry )
 				{
-						System.out.println((n+(n*10)) + ". " + message );
+						System.out.println( ( (n+1)*10 ) + ". " + message );
 						n++;
 				}
 			}
